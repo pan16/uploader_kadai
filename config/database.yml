@@ -23,4 +23,5 @@ test:
 production:
   <<: *default
   adapter: postgresql
-  database: db/production.postgresql
+  database: warm-garden-70814
+  url: <%= ENV['postgres://cvitzohtdjeffk:bd22be7235dd3958d8a71aeb1cd64857cad35d99ee4dcda72d46f8793063cd5d@ec2-23-21-162-90.compute-1.amazonaws.com:5432/dcurjs67du6374'] %>
